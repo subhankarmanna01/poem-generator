@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instant Poem Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="app-wrapper">
+
+    <div class="container">
+
+      <header>
+        <h1>Science in Rhyme</h1>
+        <p>Select a difficult science topic to generate an easy-to-remember poem!</p>
+      </header>
+
+      <div class="controls">
+
+        <select id="topic-select">
+          <option value="" disabled selected>
+            Choose a textbook topic...
+          </option>
+
+          <option value="photosynthesis">
+            Photosynthesis
+          </option>
+
+          <option value="ohms_law">
+            Ohm's Law
+          </option>
+
+          <option value="water_cycle">
+            The Water Cycle
+          </option>
+        </select>
+
+        <br>
+
+        <button id="generate-btn">
+          Generate Poem
+        </button>
+
+      </div>
+
+      <div id="output-area" class="output-area">
+
+        <h2 id="out-title" class="topic-title"></h2>
+
+        <p id="out-poem" class="poem-text"></p>
+
+        <p id="out-def" class="definition"></p>
+
+        <div class="qr-container">
+
+          <div class="qr-box">
+
+            <svg viewBox="0 0 100 100">
+
+              <rect width="100" height="100" fill="#fff" />
+
+              <rect x="10" y="10" width="25" height="25" fill="#000" />
+              <rect x="15" y="15" width="15" height="15" fill="#fff" />
+              <rect x="17.5" y="17.5" width="10" height="10" fill="#000" />
+
+              <rect x="65" y="10" width="25" height="25" fill="#000" />
+              <rect x="70" y="15" width="15" height="15" fill="#fff" />
+              <rect x="72.5" y="17.5" width="10" height="10" fill="#000" />
+
+              <rect x="10" y="65" width="25" height="25" fill="#000" />
+              <rect x="15" y="70" width="15" height="15" fill="#fff" />
+              <rect x="17.5" y="72.5" width="10" height="10" fill="#000" />
+
+              <rect x="45" y="10" width="10" height="10" fill="#000" />
+              <rect x="40" y="25" width="20" height="10" fill="#000" />
+
+              <rect x="10" y="45" width="15" height="10" fill="#000" />
+              <rect x="30" y="40" width="20" height="25" fill="#000" />
+
+              <rect x="55" y="45" width="35" height="15" fill="#000" />
+
+              <rect x="40" y="70" width="20" height="20" fill="#000" />
+              <rect x="70" y="70" width="20" height="20" fill="#000" />
+
+            </svg>
+
+          </div>
+
+          <div class="qr-label">
+            Scan for textbook definition
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
