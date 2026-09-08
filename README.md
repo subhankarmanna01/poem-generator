@@ -1,10 +1,7 @@
 1.Basic Information 
 Title of the project : Instant Poem/Song Generator 
 Group no : 02 
-Name of the Students : Soumen Chowdhuri , Subhankar Manna , Sayan Maity , Aritra Pal , 
-Sumana Maity , Trilochan Manna , Sadman Nasif Nafim , Kuldeep Srivastav , Ratul 
-Biswas , Ohedul Islam. 
-Course Name : AI MINI PROJECT 
+Name of the Students :  Subhankar Manna 
 2.Introduction and Background  
 Many students find it difficult to remember complex science topics and definitions. This             
 project aims to make learning easier and more interesting by converting important science 
